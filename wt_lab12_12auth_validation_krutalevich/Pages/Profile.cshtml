@@ -1,0 +1,16 @@
+﻿@page
+@model ProfileModel
+
+@{
+    ViewData["Title"] = "Личный кабинет";
+}
+
+<h1>Личный кабинет</h1>
+
+<p>
+    Пользователь: <strong>@Model.UserLogin</strong>
+</p>
+
+<form method="post">
+    <button type="submit" class="btn btn-secondary">Выйти</button>
+</form>
